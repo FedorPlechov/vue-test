@@ -44,9 +44,6 @@ export default {
     paddingLeftForSubLevel () {
       return this.level * 20 + 'px'
     },
-    isSubLevel () {
-      return this.level > 0
-    },
   },
 
 }
